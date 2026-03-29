@@ -16,7 +16,7 @@ import com.example.cicddemo.ui.theme.CicddemoTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        enableE dgeToEdge()
         setContent {
             CicddemoTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
